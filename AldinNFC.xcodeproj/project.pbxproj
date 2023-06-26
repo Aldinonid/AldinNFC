@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A502B0FF2A474ADF0087DE1C /* AldinNFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502B0FE2A474ADF0087DE1C /* AldinNFCApp.swift */; };
+		A502B1012A474ADF0087DE1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502B1002A474ADF0087DE1C /* ContentView.swift */; };
+		A502B1032A474AE10087DE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A502B1022A474AE10087DE1C /* Assets.xcassets */; };
+		A502B1062A474AE10087DE1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A502B1052A474AE10087DE1C /* Preview Assets.xcassets */; };
+		A502B10C2A474AE10087DE1C /* AldinNFC Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A502B10B2A474AE10087DE1C /* AldinNFC Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A502B1112A474AE10087DE1C /* AldinNFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502B1102A474AE10087DE1C /* AldinNFCApp.swift */; };
+		A502B1132A474AE10087DE1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A502B1122A474AE10087DE1C /* ContentView.swift */; };
+		A502B1152A474AE30087DE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A502B1142A474AE30087DE1C /* Assets.xcassets */; };
+		A502B1182A474AE30087DE1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A502B1172A474AE30087DE1C /* Preview Assets.xcassets */; };
+		A55C80092A4958190021EC8D /* SwiftNFC in Frameworks */ = {isa = PBXBuildFile; productRef = A55C80082A4958190021EC8D /* SwiftNFC */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A502B10D2A474AE10087DE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A502B0F32A474ADE0087DE1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A502B10A2A474AE10087DE1C;
+			remoteInfo = "AldinNFC Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A502B11E2A474AE30087DE1C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A502B10C2A474AE10087DE1C /* AldinNFC Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A502B0FB2A474ADF0087DE1C /* AldinNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AldinNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A502B0FE2A474ADF0087DE1C /* AldinNFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldinNFCApp.swift; sourceTree = "<group>"; };
+		A502B1002A474ADF0087DE1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A502B1022A474AE10087DE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A502B1052A474AE10087DE1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A502B10B2A474AE10087DE1C /* AldinNFC Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AldinNFC Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A502B1102A474AE10087DE1C /* AldinNFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldinNFCApp.swift; sourceTree = "<group>"; };
+		A502B1122A474AE10087DE1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A502B1142A474AE30087DE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A502B1172A474AE30087DE1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A502B0F82A474ADF0087DE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C80092A4958190021EC8D /* SwiftNFC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A502B1082A474AE10087DE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A502B0F22A474ADE0087DE1C = {
+			isa = PBXGroup;
+			children = (
+				A502B0FD2A474ADF0087DE1C /* AldinNFC */,
+				A502B10F2A474AE10087DE1C /* AldinNFC Watch App */,
+				A502B0FC2A474ADF0087DE1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A502B0FC2A474ADF0087DE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A502B0FB2A474ADF0087DE1C /* AldinNFC.app */,
+				A502B10B2A474AE10087DE1C /* AldinNFC Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A502B0FD2A474ADF0087DE1C /* AldinNFC */ = {
+			isa = PBXGroup;
+			children = (
+				A502B0FE2A474ADF0087DE1C /* AldinNFCApp.swift */,
+				A502B1002A474ADF0087DE1C /* ContentView.swift */,
+				A502B1022A474AE10087DE1C /* Assets.xcassets */,
+				A502B1042A474AE10087DE1C /* Preview Content */,
+			);
+			path = AldinNFC;
+			sourceTree = "<group>";
+		};
+		A502B1042A474AE10087DE1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A502B1052A474AE10087DE1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A502B10F2A474AE10087DE1C /* AldinNFC Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A502B1102A474AE10087DE1C /* AldinNFCApp.swift */,
+				A502B1122A474AE10087DE1C /* ContentView.swift */,
+				A502B1142A474AE30087DE1C /* Assets.xcassets */,
+				A502B1162A474AE30087DE1C /* Preview Content */,
+			);
+			path = "AldinNFC Watch App";
+			sourceTree = "<group>";
+		};
+		A502B1162A474AE30087DE1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A502B1172A474AE30087DE1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A502B0FA2A474ADF0087DE1C /* AldinNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A502B11F2A474AE30087DE1C /* Build configuration list for PBXNativeTarget "AldinNFC" */;
+			buildPhases = (
+				A502B0F72A474ADF0087DE1C /* Sources */,
+				A502B0F82A474ADF0087DE1C /* Frameworks */,
+				A502B0F92A474ADF0087DE1C /* Resources */,
+				A502B11E2A474AE30087DE1C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A502B10E2A474AE10087DE1C /* PBXTargetDependency */,
+			);
+			name = AldinNFC;
+			packageProductDependencies = (
+				A55C80082A4958190021EC8D /* SwiftNFC */,
+			);
+			productName = AldinNFC;
+			productReference = A502B0FB2A474ADF0087DE1C /* AldinNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A502B10A2A474AE10087DE1C /* AldinNFC Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A502B11B2A474AE30087DE1C /* Build configuration list for PBXNativeTarget "AldinNFC Watch App" */;
+			buildPhases = (
+				A502B1072A474AE10087DE1C /* Sources */,
+				A502B1082A474AE10087DE1C /* Frameworks */,
+				A502B1092A474AE10087DE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AldinNFC Watch App";
+			productName = "AldinNFC Watch App";
+			productReference = A502B10B2A474AE10087DE1C /* AldinNFC Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A502B0F32A474ADE0087DE1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A502B0FA2A474ADF0087DE1C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A502B10A2A474AE10087DE1C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A502B0F62A474ADE0087DE1C /* Build configuration list for PBXProject "AldinNFC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A502B0F22A474ADE0087DE1C;
+			packageReferences = (
+				A55C80072A4958190021EC8D /* XCRemoteSwiftPackageReference "SwiftNFC" */,
+			);
+			productRefGroup = A502B0FC2A474ADF0087DE1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A502B0FA2A474ADF0087DE1C /* AldinNFC */,
+				A502B10A2A474AE10087DE1C /* AldinNFC Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A502B0F92A474ADF0087DE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502B1062A474AE10087DE1C /* Preview Assets.xcassets in Resources */,
+				A502B1032A474AE10087DE1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A502B1092A474AE10087DE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502B1182A474AE30087DE1C /* Preview Assets.xcassets in Resources */,
+				A502B1152A474AE30087DE1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A502B0F72A474ADF0087DE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502B1012A474ADF0087DE1C /* ContentView.swift in Sources */,
+				A502B0FF2A474ADF0087DE1C /* AldinNFCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A502B1072A474AE10087DE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502B1132A474AE10087DE1C /* ContentView.swift in Sources */,
+				A502B1112A474AE10087DE1C /* AldinNFCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A502B10E2A474AE10087DE1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A502B10A2A474AE10087DE1C /* AldinNFC Watch App */;
+			targetProxy = A502B10D2A474AE10087DE1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A502B1192A474AE30087DE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A502B11A2A474AE30087DE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A502B11C2A474AE30087DE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AldinNFC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YKQLRUN464;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AldinNFC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aldinonid.AldinNFC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldinonid.AldinNFC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A502B11D2A474AE30087DE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AldinNFC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YKQLRUN464;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AldinNFC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.aldinonid.AldinNFC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldinonid.AldinNFC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A502B1202A474AE30087DE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AldinNFC/Preview Content\"";
+				DEVELOPMENT_TEAM = YKQLRUN464;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AldinNFC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldinonid.AldinNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A502B1212A474AE30087DE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AldinNFC/Preview Content\"";
+				DEVELOPMENT_TEAM = YKQLRUN464;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AldinNFC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldinonid.AldinNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A502B0F62A474ADE0087DE1C /* Build configuration list for PBXProject "AldinNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502B1192A474AE30087DE1C /* Debug */,
+				A502B11A2A474AE30087DE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A502B11B2A474AE30087DE1C /* Build configuration list for PBXNativeTarget "AldinNFC Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502B11C2A474AE30087DE1C /* Debug */,
+				A502B11D2A474AE30087DE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A502B11F2A474AE30087DE1C /* Build configuration list for PBXNativeTarget "AldinNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502B1202A474AE30087DE1C /* Debug */,
+				A502B1212A474AE30087DE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A55C80072A4958190021EC8D /* XCRemoteSwiftPackageReference "SwiftNFC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1998code/SwiftNFC";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A55C80082A4958190021EC8D /* SwiftNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55C80072A4958190021EC8D /* XCRemoteSwiftPackageReference "SwiftNFC" */;
+			productName = SwiftNFC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A502B0F32A474ADE0087DE1C /* Project object */;
+}
